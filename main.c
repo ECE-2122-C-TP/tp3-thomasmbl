@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// TP3 Mabille Thomas
 int exercice1() {
     int a=0, b=0;
     printf("Saisir deux entier\n");
@@ -185,7 +185,7 @@ int main() {
     //exercice6();
     //exercice7();
     //exercice8();
-    exercice9();
+    //exercice9();
     //exercice10();
     return 0;
 }
