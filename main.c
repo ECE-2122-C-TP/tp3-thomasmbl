@@ -116,7 +116,7 @@ int exercice6() {
         scanf(" %f", &note3);
     }
     moyenne = (float) ( note1 + note2 + note3 ) / (float) 3;
-    printf("La moyenne de vos 3 notes est de %f/20", moyenne );
+    printf("La moyenne de vos 3 notes est de %.2f/20", moyenne );
 
 }
 
@@ -170,7 +170,7 @@ int exercice10() {
     }
     if(nbEntier>0) {
         moyenne = (float) somme / (float) nbEntier;
-        printf("La moyenne de vos %d nombres positifs est de %f\n", nbEntier, moyenne);
+        printf("La moyenne de vos %d nombres positifs est de %.2f\n", nbEntier, moyenne);
     }
 
 }
